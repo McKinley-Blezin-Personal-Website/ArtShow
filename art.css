@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(92, 106, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#canvas{
+    background-color: midnightblue;
+    width: 448px;
+    height: 310px;
+    border-radius: 30px;
+}
+
+.orangeSun{
+    background-color: rgb(255, 210, 47);
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        position: relative;
+        left: 130px;
+        top: 20px;
+}
+
+.top {
+    /* display: flex; */
+    margin-left: 199px;
+    background-color: rgb(46, 216, 199);
+    width: 250px;
+    height: 60px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.building-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.building1 {
+    background-color: rgb(3, 4, 4);
+    width: 80px;
+    height: 110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap
+
+}
+.building2 {
+    background-color: rgb(3, 4, 4);
+    width: 80px;
+    height: 110px;
+    margin-left: 90px;
+    margin-right: 90px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.grass {
+    background-color: rgb(27, 181, 27);
+    width: 448px;
+    height: 90px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.windows {
+    background-color: silver;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+}
+.windows2 {
+    background-color: rgb(50, 54, 154);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+@media (max-width:480px){
+}
